@@ -3,21 +3,21 @@
 ## Setup:
 
 In **kali** user run these commands <br/>
-`cd ~ ;mkdir advance_command_lab;cd advance_command_lab;{ echo '  Ali, 1, Riyadh;'
-        echo '  Saad, 2, Jeddah;'
-        echo '  Waleed, 3, Dammam;'
-        echo '  Noura, 4, Makkah;'
-        echo '  Sarah, 5, Yanbu;'
-} >> students.csv;{ echo '  Ali-Ahmad;'
-        echo '  Ali-Khaled;'
-        echo '  Waleed-Fahad;'
-        echo '  Noura-Saad;'
-        echo '  Sarah-Mohammed;'
-} >> names.csv; { echo '  Ali, 1, Dammamm;'
-        echo '  Saad, 2, Dammam;'
-        echo '  Waleed, 3, Al-Dammam;'
-        echo '  Noura, 4, al-dammam;'
-        echo '  Sarah, 5, al-dammamm;'
+`cd ~ ;mkdir advance_command_lab;cd advance_command_lab;{ echo '  Ali, 1, Riyadh;';
+        echo '  Saad, 2, Jeddah;';
+        echo '  Waleed, 3, Dammam;';
+        echo '  Noura, 4, Makkah;';
+        echo '  Sarah, 5, Yanbu;';
+} >> students.csv;{ echo '  Ali-Ahmad;';
+        echo '  Ali-Khaled;';
+        echo '  Waleed-Fahad;';
+        echo '  Noura-Saad;';
+        echo '  Sarah-Mohammed;';
+} >> names.csv; { echo '  Ali, 1, Dammamm;';
+        echo '  Saad, 2, Dammam;';
+        echo '  Waleed, 3, Al-Dammam;';
+        echo '  Noura, 4, al-dammam;';
+        echo '  Sarah, 5, al-dammamm;';
 } >> raw_data.csv;`
 
 
