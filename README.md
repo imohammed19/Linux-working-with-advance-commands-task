@@ -8,17 +8,17 @@ In **kali** user run these commands <br/>
         echo '  Waleed, 3, Dammam;'
         echo '  Noura, 4, Makkah;'
         echo '  Sarah, 5, Yanbu;'
-} >> students.txt;{ echo '  Ali-Ahmad;'
+} >> students.csv;{ echo '  Ali-Ahmad;'
         echo '  Ali-Khaled;'
         echo '  Waleed-Fahad;'
         echo '  Noura-Saad;'
         echo '  Sarah-Mohammed;'
-} >> names.txt; { echo '  Ali, 1, Dammamm;'
+} >> names.csv; { echo '  Ali, 1, Dammamm;'
         echo '  Saad, 2, Dammam;'
         echo '  Waleed, 3, Al-Dammam;'
         echo '  Noura, 4, al-dammam;'
         echo '  Sarah, 5, al-dammamm;'
-} >> raw_data.txt;`
+} >> raw_data.csv;`
 
 
 
