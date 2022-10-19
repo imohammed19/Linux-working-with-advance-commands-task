@@ -18,7 +18,7 @@ In **kali** user run these commands <br/>
         echo '  Waleed, 3, Al-Dammam;'
         echo '  Noura, 4, al-dammam;'
         echo '  Sarah, 5, al-dammamm;'
-} >> raw_data.txt;
+} >> raw_data.txt;`
 
 
 
