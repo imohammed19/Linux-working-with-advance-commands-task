@@ -1,4 +1,4 @@
-# Linux-working-with-advance-commands-task
+# Linux-working-with-advanced-commands-task
 
 ## Setup:
 
