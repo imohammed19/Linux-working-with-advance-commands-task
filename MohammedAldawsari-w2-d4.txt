@@ -1,0 +1,68 @@
+-------------------- Task 1 ---------------------------
+                                                                          
+
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ uptime | tee uptime_output.txt                      
+
+ 15:22:00 up  6:32,  1 user,  load average: 0.15, 0.18, 0.18
+
+-------------------- Task 2 ---------------------------
+
+                                                                                                  
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ sort -t ',' -k1,1 students.csv > sorted_students.csv                       
+
+                                                                                                  
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ cat sorted_students.csv       
+  Ali, 1, Riyadh;
+  Noura, 4, Makkah;
+  Saad, 2, Jeddah;
+  Sarah, 5, Yanbu;
+  Waleed, 3, Dammam;
+                
+
+ 
+-------------------- Task 3 ---------------------------
+
+                                                                         
+                                                                                                  
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ cut -d ',' -f 1,2 names.csv | awk -F ',' '{print $1 " " $2 ";"}' > full_name.csv
+
+                                                                                                  
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ cat full_name.csv                                                               
+  Ali-Ahmad; ;
+  Ali-Khaled; ;
+  Waleed-Fahad; ;
+  Noura-Saad; ;
+  Sarah-Mohammed; ;
+                                                                                                  
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ cat names.csv    
+  Ali-Ahmad;
+  Ali-Khaled;
+  Waleed-Fahad;
+  Noura-Saad;
+  Sarah-Mohammed;v
+
+--------------------Challenge---------------------------
+
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ sed 's/,[^,]*,Dammam,/ Dammam,/g' raw_data.csv                                  
+  Ali, 1, Dammamm;
+  Saad, 2, Dammam;
+  Waleed, 3, Al-Dammam;
+  Noura, 4, al-dammam;
+  Sarah, 5, al-dammamm;
+                                                                                                  
+┌──(kali㉿kali)-[~/advance_command_lab]
+└─$ cat raw_data.csv 
+  Ali, 1, Dammamm;
+  Saad, 2, Dammam;
+  Waleed, 3, Al-Dammam;
+  Noura, 4, al-dammam;
+  Sarah, 5, al-dammamm;
+
+
